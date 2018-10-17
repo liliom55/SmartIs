@@ -1,0 +1,13 @@
+<div class="navbar-container" #navbar [@scrollAnimation]="state">
+  <div class="big-navbar-wrapper">
+    <app-big-navbar></app-big-navbar>
+    <app-ecommerce-menu [wishList]="wishList.length" [cartList]="cartList.length"></app-ecommerce-menu>
+  </div>
+
+  <div class="logo">
+    <a id="logo-container" href="#" class="brand-logo">
+      <img src="assets/images/logo.jpg" alt="Logo smartis" />
+    </a>
+  </div>
+  <app-small-navbar></app-small-navbar>
+</div>

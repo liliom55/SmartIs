@@ -1,0 +1,59 @@
+.navbar-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-image: white;
+  justify-content: flex-end;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  .logo {
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    z-index: 7;
+    img {
+      // border-bottom-left-radius: 50%;
+      // border-bottom-right-radius: 50%;
+      // box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      width: 23%;
+    }
+  }
+  .big-navbar-wrapper {
+    display: flex;
+    align-content: flex-start;
+    app-ecommerce-menu {
+      width: 20%;
+    }
+  }
+  app-small-navbar {
+    display: none;
+  }
+  app-big-navbar {
+    display: block;
+    width: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    app-small-navbar {
+      display: block;
+    }
+    app-big-navbar {
+      display: none;
+    }
+    .logo {
+      width: 40%;
+      img {
+        width: 60%;
+      }
+    }
+
+    .big-navbar-wrapper {
+      width: 50%;
+      app-ecommerce-menu {
+        width: 100%;
+      }
+    }
+    display: flex;
+  }
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Samim';
+  src: url('/assets/fonts/Samim.woff2') format('woff2'),
+    url('/assets/fonts/Samim.woff') format('woff'),
+    url('/assets/fonts/Samim.ttf') format('ttf');
+}
+body {
+  a,
+  span,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: 'Samim', Arial, Helvetica, sans-serif;
+  }
+}

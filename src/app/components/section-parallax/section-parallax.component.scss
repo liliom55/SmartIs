@@ -1,0 +1,55 @@
+// .section1 {
+//   .container1 {
+//     display: contents;
+//     h1 {
+//       position: absolute;
+//       bottom: 10px;
+//       left: 30px;
+//       text-align: center;
+//       font-weight: bold;
+//       font-size: 4vw;
+//       color: white;
+//       text-shadow: #474747 3px 5px 2px;
+//     }
+//   }
+// }
+// mz-parallax {
+//   img {
+//     width: 100%;
+//   }
+// }
+// @media screen and (max-width: 414px) {
+//   .container {
+//     width: 100%;
+//   }
+//   mz-parallax {
+//     img {
+//       width: 150%;
+//     }
+//   }
+// }
+.s-contact {
+  background-color: #579900;
+  // background-image: url(../../../assets/images/background2.jpg);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  // background-position: center;
+  background-attachment: fixed;
+  padding-top: 15rem;
+  padding-bottom: 12rem;
+  color: rgba(2, 2, 2, 0.5);
+  position: relative;
+  div {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    p {
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem;
+      color: white;
+      text-shadow: #474747 3px 5px 2px;
+    }
+  }
+}
