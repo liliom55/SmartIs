@@ -1,0 +1,32 @@
+[
+  {
+    "id": "",
+    "name": "blackTea",
+    "urlImage": "assets/images/categories/black_tea.jpg"
+  },
+  {
+    "id": "",
+    "name": "greenTea",
+    "urlImage": "assets/images/categories/green_tea.jpg"
+  },
+  {
+    "id": "",
+    "name": "herbalTea",
+    "urlImage": "assets/images/categories/herbal_tea.jpg"
+  },
+  {
+    "id": "",
+    "name": "Catering",
+    "urlImage": "assets/images/categories/Catering_tea.jpg"
+  },
+  {
+    "id": "",
+    "name": "pure",
+    "urlImage": "assets/images/categories/pure_tea.jpg"
+  },
+  {
+    "id": "",
+    "name": "cofee",
+    "urlImage": "assets/images/categories/cafee_hot_chololate.jpg"
+  }
+]
